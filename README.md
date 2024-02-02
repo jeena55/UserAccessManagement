@@ -55,11 +55,11 @@
 ```python
 print("Hello World")
 ```
-## :heavy_plus_sign: Add/Delete/Mod Users/Groups :pencil2:
-## 🔒 User Policy, Password Policy 🚀
-## Authentication/IDM/SSO 🔐
-## Authorization
-## Access Control, Firewall
+## :heavy_plus_sign: Add/Delete/Mod Users/Groups
+## 🔒 User Policy, Password Policy
+## 🔐 Authentication/IDM/SSO 
+## 🕵️‍♀️ Authorization
+## 🚧 Access Control, Firewall
 
 
 
