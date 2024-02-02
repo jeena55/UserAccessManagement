@@ -34,8 +34,4 @@ print("Hello World")
 | 65070078 | นายณัฐพงศ์ มาสำราญ (เจมส์)               | File System Type               | ![James](/assets/img/members/078.webp)                                                    |
 | 65070089 | นายธนกฤต ทรัพย์ประสิทธิ์ (เต้)         | Archiver, Backup/Restore Tools | ![Tae](/assets/img/members/089.webp)                                                     |
 
-
-[//]: # (![GroupMembers]&#40;/assets/img/members/group-members.jpeg&#41;)
-
-
 </body>
