@@ -2,7 +2,7 @@
 
 <body>
 
-<h1>The flex-direction Property</h1>
+<h2>Group Member</h2>
 
 <div id="main">
   <div style="background-color:coral;">A</div>
