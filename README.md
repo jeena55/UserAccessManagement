@@ -1,23 +1,5 @@
 # comOrg
 
-<style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        .container {
-            display: flex;
-        }
-
-        .col {
-            flex: 1;
-        }
-</style>
-
 
 <div class="container">
         <div class="col">
