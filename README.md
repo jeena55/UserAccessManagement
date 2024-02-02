@@ -4,7 +4,7 @@
 
 | ID        | Name      | Duty    | Picture                                            |
 |-----------|-----------|---------|----------------------------------------------------|
-| 65070020  | John Doe  | Duty 1  | <img src="https://i.ibb.co/wSjhVh3/pic1.png">    |
+| 65070020  | John Doe  | Duty zssdsdsdsdsdsdsdsd1  | <img src="https://i.ibb.co/wSjhVh3/pic1.png">    |
 | 65070022  | John Doe  | Duty 2  | <img src="https://i.ibb.co/wSjhVh3/pic1.png">    |
 | 65070031  | Jane Doe  | Duty 3  | <img src="https://i.ibb.co/wSjhVh3/pic1.png">    |
 | 65070032  | Bob Smith | Duty 4  | <img src="https://i.ibb.co/wSjhVh3/pic1.png">   |
