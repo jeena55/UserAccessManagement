@@ -1,6 +1,4 @@
-<h1 align=center>User/Access Management</div>
 
-<h2 align="center">Group Member</h2>
 | ID        | Name      | Picture                                            |
 |-----------|-----------|----------------------------------------------------|
 | 65070020  | John Doe  | ![John Doe](https://i.ibb.co/wSjhVh3/pic1.png)    |
