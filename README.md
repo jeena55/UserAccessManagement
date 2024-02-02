@@ -2,7 +2,7 @@
 
 <body>
 
-<h2>Group Member</h2>
+<h2 style="text-align: center">Group Member</h2>
 
 <table style="width: 700px;
             margin: 0 auto;
