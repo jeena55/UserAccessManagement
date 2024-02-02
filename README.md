@@ -56,10 +56,12 @@
 
 
 ## :heavy_plus_sign: Add/Delete/Mod Users/Groups
-## 🔒 User Policy, Password Policy
+## 🤖 User Policy
+## 🔒 Password Policy
 ## 🔐 Authentication/IDM/SSO 
 ## 🕵️‍♀️ Authorization
 ## 🚧 Access Control, Firewall
+## 🛡️ Firewall
 
 
 
