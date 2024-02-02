@@ -1,7 +1,7 @@
-# User/Access Management 👤🔐
+<h1 align="center">User/Access Management 👤🔐</h1>
 
+<h2 align="center">Group Member 🤝 </h2>
 
-## Group Member 🤝 
 
 <table align="center">
   <tr>
