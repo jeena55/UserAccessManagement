@@ -4,7 +4,9 @@
 
 <h2>Group Member</h2>
 
-<table style="width: 700px text-align: center">
+<table style="width: 700px;
+            margin: 0 auto;
+            text-align: center;">
     <thead>
             <tr>
                 <th>ID</th>
