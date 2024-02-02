@@ -61,3 +61,13 @@ print("Hello World")
 ## Authorization
 ## Access Control, Firewall
 
+
+
+### 🤵 Need Help?
+
+Join our [Discord server](https://discord.tutim.io) or [Open an issue](https://github.com/tutim-io/tutim/issues/new/choose)
+
+### 🔗 Links
+
+- [Home page](https://tutim.io)
+- [Twitter](https://twitter.com/Tutim_io)
