@@ -64,11 +64,9 @@ them later."
 * Write in markdown format.
   - You should use triple backtick blocks for code, and supply a language prefix:
 
-        ```ruby
         def hello(str)
           puts "hello #{str}!"
         end
-        ```
 
 * Do not wrap lines. In emacs, enable the `longlines-mode` to make your document word wrap intelligently.
 
