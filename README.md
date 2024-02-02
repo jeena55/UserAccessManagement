@@ -56,8 +56,8 @@
 print("Hello World")
 ```
 ## :heavy_plus_sign: Add/Delete/Mod Users/Groups :pencil2:
-## User Policy, Password Policy
-## Authentication/IDM/SSO
+## 🔒 User Policy, Password Policy 🚀
+## Authentication/IDM/SSO 🔐
 ## Authorization
 ## Access Control, Firewall
 
