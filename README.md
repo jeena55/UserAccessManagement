@@ -1,5 +1,5 @@
 <h1>User/Access Management</div>
-<h2 align=center>Group Member</div>
+<h2>Group Member</div>
 
 
 <table align="center">
