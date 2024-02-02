@@ -4,7 +4,7 @@
 
 | ID        | Name      | Picture                                            |
 |-----------|-----------|----------------------------------------------------|
-| 65070020  | John Doe  | <img src="https://i.ibb.co/wSjhVh3/pic1.png" width="50%">    |
+| 65070020  | John Doe  | <img src="https://i.ibb.co/wSjhVh3/pic1.png" width="250%">    |
 | 65070022  | John Doe  | <img src="https://i.ibb.co/wSjhVh3/pic1.png" width="50%">    |
 | 65070031  | Jane Doe  | <img src="https://i.ibb.co/wSjhVh3/pic1.png" width="50%">    |
 | 65070032  | Bob Smith | <img src="https://i.ibb.co/wSjhVh3/pic1.png" width="50%">   |
