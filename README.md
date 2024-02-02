@@ -2,7 +2,7 @@
 <h2 align=center>Group Member</div>
 
 | ID        | Name      | Picture                                           |
-|-----------|-----------|---------------------------------------------------|
+|-----------|-----------|---------------------------------------------------------------------------------|
 | 65070020  | John Doe  | ![John Doe](https://i.ibb.co/wSjhVh3/pic1.png)   |
 | 65070022  | John Doe  | ![John Doe](https://i.ibb.co/wSjhVh3/pic1.png)   |
 | 65070031  | Jane Doe  | ![Jane Doe](https://i.ibb.co/wSjhVh3/pic1.png)   |
