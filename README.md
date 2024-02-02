@@ -1,44 +1,22 @@
-# User/Access Management
+#user policy, password policy
 
-<body>
-<div class="container" style="display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; flex-wrap: wrap;">
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
+<h1>User Policy</h1>
+
+<div>
+    <p>เมื่อมีการสร้างผู้ใช้ใหม่ ยูทิลิตี้ adduser จะสร้างโฮมไดเร็กตอรี่ใหม่ชื่อ/home/username. โปรไฟล์เริ่มต้นจะถูกจำลองตาม เนื้อหาที่พบในไดเร็กทอรีของ/etc/skelซึ่งรวมถึงข้อมูลพื้นฐานของโปรไฟล์ทั้งหมด</p>
+    <br>
+    <p>หากเซิร์ฟเวอร์ของคุณจะเป็นบ้านสำหรับผู้ใช้หลายคน คุณควรใส่ใจกับการอนุญาตโฮมไดเร็กตอรี่ของผู้ใช้อย่างใกล้ชิดเพื่อให้แน่ใจว่าจะเป็นความลับ ตามค่าเริ่มต้น โฮมไดเร็กทอรีของผู้ใช้ใน Ubuntu จะถูกสร้างขึ้นด้วยสิทธิ์การอ่าน/ดำเนินการทั่วโลก ซึ่งหมายความว่าผู้ใช้ทุกคนสามารถเรียกดูและเข้าถึงเนื้อหาของโฮมไดเร็กทอรีของผู้ใช้รายอื่นได้ สิ่งนี้อาจไม่เหมาะกับสภาพแวดล้อมของคุณ</p>
 </div>
 
-        
-## hello thailand
-[Hello Thailand](README.md#a-third-level-heading)
-```python
-print("Hello World")
-```
-## Add/Delete/Mod Users/Groups
-## User Policy, Password Policy
-## Authentication/IDM/SSO
-## Authorization
-## Access Control, Firewall
+<div>
+   <li>หากต้องการตรวจสอบสิทธิ์โฮมไดเร็กทอรีของผู้ใช้ปัจจุบันของคุณ ให้ใช้ไวยากรณ์ต่อไปนี้:</li>
+    <pre>
+        <code>ls -ld /home/username</code>
+    </pre> 
+    <p>ผลลัพธ์ต่อไปนี้แสดงว่าไดเร็กทอรี/home/usernameมีสิทธิ์ที่สามารถอ่านได้ทั่วโลก:</p>
+     <pre>
+        <code>drwxr-xr-x  2 username username    4096 2007-10-02 20:03 username</code>
+    </pre> 
+</div>
 
-</body>
+
