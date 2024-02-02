@@ -1,6 +1,5 @@
 <h1 align=center>User/Access Management</div>
 
-<body>
 <h2 align="center">Group Member</h2>
 | ID        | Name      | Picture                                            |
 |-----------|-----------|----------------------------------------------------|
@@ -24,4 +23,3 @@ print("Hello World")
 ## Authorization
 ## Access Control, Firewall
 
-</body>
