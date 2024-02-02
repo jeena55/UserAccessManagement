@@ -24,23 +24,24 @@ print("Hello World")
 ## Authentication/IDM/SSO
 ## Authorization
 ## Access Control, Firewall
+
+
+
+
+
 <style>
-  table {
-    width: 350%; /* Adjust the width as needed */
-    height: 1%;
-    border-collapse: collapse;
-    margin: 20px; /* Optional: Add margin for better spacing */
-  }
-
-  th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-
-  th {
-    background-color: #f2f2f2; /* Optional: Add a background color for header cells */
-  }
+table th:first-of-type {
+    width: 10%;
+}
+table th:nth-of-type(2) {
+    width: 10%;
+}
+table th:nth-of-type(3) {
+    width: 50%;
+}
+table th:nth-of-type(4) {
+    width: 30%;
+}
 </style>
 
 | ID       | Name                                      | Sub Topic                      | Img                                                                                          |
@@ -53,5 +54,3 @@ print("Hello World")
 | 65070078 | นายณัฐพงศ์ มาสำราญ (เจมส์)               | File System Type               | ![James](/assets/img/members/078.webp)                                                    |
 | 65070089 | นายธนกฤต ทรัพย์ประสิทธิ์ (เต้)         | Archiver, Backup/Restore Tools | ![Tae](/assets/img/members/089.webp)                                                     |
 
-
-</body>
