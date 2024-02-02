@@ -2,7 +2,7 @@
 
 <body>
         
-<div class="container" style="display: flex; align-items: center; justify-content: center;height: 100vh; margin: 0;">
+<div class="container" style="display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; flex-wrap: wrap;">
         <div class="col" style="display: flex;">
             <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%;">
                 <p>65070038 จีนะ เกิดแก้ว</p>
