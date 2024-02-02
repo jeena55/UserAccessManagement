@@ -55,7 +55,7 @@
 </table>
 
 <ul>
-  <ul>hello</li>
+  <ul>hello</ul>
 </ul>
 
 ## :heavy_plus_sign: Add/Delete/Mod Users/Groups
