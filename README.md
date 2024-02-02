@@ -1,5 +1,5 @@
 # comOrg
-[A third-level heading](comOrg/README.md#hello_thailand)
+[A third-level heading](###A-third-level-heading)
 ## hello thailand
 ```
 print("Hello World")
