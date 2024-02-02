@@ -9,7 +9,7 @@
             <tr>
                 <th>ID</th>
                 <th>Name</th>
-                <th></th>
+                <th>Picture</th>
             </tr>
         </thead>
         <tbody>
@@ -21,32 +21,32 @@
             <tr>
                 <td>65070022</td>
                 <td>John Doe</td>
-                <td>25</td>
+                <td><img src="https://i.ibb.co/wSjhVh3/pic1.png"></td>
             </tr>
             <tr>
                 <td>65070031</td>
                 <td>Jane Doe</td>
-                <td>30</td>
+                <td><img src="https://i.ibb.co/wSjhVh3/pic1.png"></td>
             </tr>
             <tr>
                 <td>65070032</td>
                 <td>Bob Smith</td>
-                <td>22</td>
+                <td><img src="https://i.ibb.co/wSjhVh3/pic1.png"></td>
             </tr>
             <tr>
                 <td>65070038</td>
                 <td>John Doe</td>
-                <td>25</td>
+                <td><img src="https://i.ibb.co/wSjhVh3/pic1.png"></td>
             </tr>
             <tr>
                 <td>65070048</td>
                 <td>Jane Doe</td>
-                <td>30</td>
+                <td><img src="https://i.ibb.co/wSjhVh3/pic1.png"></td>
             </tr>
             <tr>
                 <td>65070074</td>
                 <td>Bob Smith</td>
-                <td>22</td>
+                <td><img src="https://i.ibb.co/wSjhVh3/pic1.png"></td>
             </tr>
         </tbody>
   </table>
