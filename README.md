@@ -49,12 +49,6 @@
         </tbody>
   </table>
 
-        
-## hello thailand
-[Hello Thailand](README.md#a-third-level-heading)
-```python
-print("Hello World")
-```
 ## :heavy_plus_sign: Add/Delete/Mod Users/Groups
 ## 🔒 User Policy, Password Policy
 ## 🔐 Authentication/IDM/SSO 
