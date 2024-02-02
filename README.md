@@ -4,14 +4,32 @@
 
 <h2>Group Member</h2>
 
-<div id="main">
-  <div style="background-color:coral;">A</div>
-  <div style="background-color:lightblue;">B</div>
-  <div style="background-color:khaki;">C</div>
-  <div style="background-color:pink;">D</div>
-  <div style="background-color:lightgrey;">E</div>
-  <div style="background-color:lightgreen;">F</div>
-</div>
+<table>
+    <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Doe</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bob Smith</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+  </table>
 
         
 ## hello thailand
