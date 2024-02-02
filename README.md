@@ -1,7 +1,7 @@
 # comOrg
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+[A third-level heading](comOrg/A third level heading)
 ## hello thailand
 ```
 print("Hello World")
 ```
-###Test Section
+### A third-level heading
