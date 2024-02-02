@@ -54,9 +54,6 @@
   </tr>
 </table>
 
-<ul>
-  <ul>hello</ul>
-</ul>
 
 ## :heavy_plus_sign: Add/Delete/Mod Users/Groups
 ## 🔒 User Policy, Password Policy
