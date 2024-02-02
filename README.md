@@ -16,7 +16,7 @@
             <tr>
                 <td>65070020</td>
                 <td>John Doe</td>
-                <td>25</td>
+                <td><img src="https://i.ibb.co/wSjhVh3/pic1.png"></td>
             </tr>
             <tr>
                 <td>65070022</td>
