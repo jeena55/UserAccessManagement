@@ -2,7 +2,7 @@
 <h2>Group Member</div>
 
 
-<table align="center">
+<table>
     <thead>
             <tr>
                 <th>ID</th>
