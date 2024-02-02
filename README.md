@@ -2,12 +2,12 @@
 
 <body>
         
-<div class="container">
-        <div class="col">
+<div class="container" style="display: flex; align-items: center; justify-content: center;height: 100vh; margin: 0;">
+        <div class="col" style="display: flex;">
             <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%;">
         </div>
-        <div class="col">
-            <!-- Content for the second column if needed -->
+        <div class="col" style="flex: 1;">
+            <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%;">
         </div>
 </div>
         
