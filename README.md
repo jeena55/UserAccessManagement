@@ -1,32 +1,16 @@
 # User/Access Management
 
 <body>
-<div class="container" style="display: flex;">
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-    <div class="col" style="display: flex; flex-direction: column; align-items: center; text-align: center; margin: 16px;">
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
-        <img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Image" style="max-width: 100%; margin-bottom: 8px;">
-        <p>65070038 จีนะ เกิดแก้ว</p>
-    </div>
+
+<h1>The flex-direction Property</h1>
+
+<div id="main">
+  <div style="background-color:coral;">A</div>
+  <div style="background-color:lightblue;">B</div>
+  <div style="background-color:khaki;">C</div>
+  <div style="background-color:pink;">D</div>
+  <div style="background-color:lightgrey;">E</div>
+  <div style="background-color:lightgreen;">F</div>
 </div>
 
         
