@@ -3,10 +3,6 @@
 <body>
 
 <h2 align="center">Group Member</h2>
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 <table align="center">
     <thead>
             <tr>
