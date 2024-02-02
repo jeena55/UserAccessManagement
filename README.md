@@ -24,5 +24,13 @@ print("Hello World")
 ## Authentication/IDM/SSO
 ## Authorization
 ## Access Control, Firewall
+| 65070020 | นางสาวกชกร ครุธเวโช (แพรไหม)        | Files, Directories and FHS     | ![PraeMai](/assets/img/members/001.webp)                                                   |
+| 65070018 | นายกิตติ์ชินทักษ์ หรรษานนท์โชติ (วิน)| Raw Media Devices              | ![Win](/assets/img/members/018.webp)                                                      |
+| 65070028 | นายคณิศร สมศรีอักษรแสง (เบส)           | Physical Volume Administration | ![Best](/assets/img/members/028.webp)                                                     |
+| 65070035 | นายจิรโชติ อินทรวงษ์โชติ (ไจ๋)         | Volume Group Administration    | ![Jai](/assets/img/members/035.webp)                                                      |
+| 65070076 | นายณัฐนนท์ วงศ์หนองเเวง (นนท์)         | Logical Volume Administration  | ![Nont](/assets/img/members/076.webp)                                                     |
+| 65070078 | นายณัฐพงศ์ มาสำราญ (เจมส์)               | File System Type               | ![James](/assets/img/members/078.webp)                                                    |
+| 65070089 | นายธนกฤต ทรัพย์ประสิทธิ์ (เต้)         | Archiver, Backup/Restore Tools | ![Tae](/assets/img/members/089.webp)                                                     |
+
 
 </body>
