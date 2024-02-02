@@ -1,9 +1,9 @@
 # User/Access Management 👤🔐
 
 
-[Group Member](#Group Member)
+[Group Member](#Group)
 
-## Group Member
+## Group
 | ID        | Name      | Duty    | Picture                                            |
 |-----------|-----------|---------|----------------------------------------------------|
 | 65070020  | John Doe  | Powered by [your-project-name](https://your-project-url) | <img src="https://i.ibb.co/wSjhVh3/pic1.png">    |
