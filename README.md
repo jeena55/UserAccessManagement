@@ -19,13 +19,13 @@
   <tr>
     <td>65070022</td>
     <td>นางสาว กุลธิดา รัตนวิจิตร</td>
-    <td align="center">Authentication/IDM/SSO</td>
+    <td align="center">Authentication/SSO</td>
     <td><img src="https://i.ibb.co/4KgyRD2/pic3.png" alt="Picture 3"></td>
   </tr>
   <tr>
     <td>65070031</td>
     <td>นาย จารุพงศ์ ทองมาก</td>
-    <td align="center">Firewall, Layout</td>
+    <td align="center">IDM/Commands</td>
     <td><img src="https://i.ibb.co/tDrFMYR/269884182-3202598800065695-1991805008826527788-n-1.png"  alt="Picture 4"></td>
   </tr>
   <tr>
