@@ -32,7 +32,7 @@
     <td>65070032</td>
     <td>นาย จารุวิทย์ จงเชื่อกลาง</td>
     <td>Powered by <a href="https://your-project-url">your-project-name</a></td>
-    <td><img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Picture 1"></td>
+    <td><img src="https://i.ibb.co/jkBdkmP/pic6.jpg" alt="Picture 1"></td>
   </tr>
   <tr>
     <td>65070038</td>
