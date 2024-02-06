@@ -56,8 +56,8 @@
 
 # 📖✨ Topic
 ## :heavy_plus_sign: Add/Delete/Mod Users/Groups
-## 🤖 User Policy
-## 🔒 Password Policy
+## 🤖 User Policy [click here](Topic/userPolicy.md)
+## 🔒 Password Policy [click here](Topic/passwordPolicy.md)
 ## 🔐 Authentication/IDM/SSO 
 ## 🕵️‍♀️ Authorization  [click here](Topic/Authorization.md)
 ## 🚧 Access Control, Firewall
