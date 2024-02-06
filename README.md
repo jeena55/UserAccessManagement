@@ -2,6 +2,7 @@
 https://jumpshare.com/s/Fz8PIygFYWG1JifXaY2u
 <h2 align="center">Group Member 🤝 </h2>
 
+![Uploading 269884182_3202598800065695_1991805008826527788_n.png…]()
 
 <table align="center">
   <tr>
