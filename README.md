@@ -59,7 +59,7 @@
 ## 🤖 User Policy
 ## 🔒 Password Policy
 ## 🔐 Authentication/IDM/SSO 
-## 🕵️‍♀️ Authorization
+## 🕵️‍♀️ Authorization  [click here](Topic/Authorization.md)
 ## 🚧 Access Control, Firewall
 ## 🛡️ Firewall [click here](Topic/firewall.md)
 
