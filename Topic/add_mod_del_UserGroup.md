@@ -17,8 +17,8 @@
 ## Add User
 
 หากต้องการเพิ่มผู้ใช้ ให้รันคำสั่ง <strong>useradd</strong> ดังนี้:<br>
-    ```
-    {
-        sudo useradd -m <name of the user>
-    }
-    ```
+```bat
+cd \
+copy a b
+ping 192.168.0.1
+```
