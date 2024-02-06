@@ -13,13 +13,13 @@
   <tr>
     <td>65070020</td>
     <td>นาย กิตติพัฒน์ เอี่ยมลือนาม</td>
-    <td align="center">Firewall, Layout</td>
+    <td align="center">Add/Delete/Mod Users/Groups</td>
     <td><img src="https://i.ibb.co/mqmPsT2/pic4.png" alt="Picture 4"></td>
   </tr>
   <tr>
     <td>65070022</td>
     <td>นางสาว กุลธิดา รัตนวิจิตร</td>
-    <td align="center">Firewall, Layout</td>
+    <td align="center">Authentication/IDM/SSO</td>
     <td><img src="https://i.ibb.co/4KgyRD2/pic3.png" alt="Picture 3"></td>
   </tr>
   <tr>
@@ -31,13 +31,13 @@
   <tr>
     <td>65070032</td>
     <td>นาย จารุวิทย์ จงเชื่อกลาง</td>
-    <td align="center">Firewall, Layout</td>
+    <td align="center">Access Controlt</td>
     <td><img src="https://i.ibb.co/jkBdkmP/pic6.jpg" alt="Picture 1"></td>
   </tr>
   <tr>
     <td>65070038</td>
     <td>นางสาว จีนะ เกิดแก้ว</td>
-    <td align="center">Firewall, Layout</td>
+    <td align="center">User Policy, Password Policy</td>
     <td><img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Picture 1"></td>
   </tr>
   <tr>
@@ -49,7 +49,7 @@
   <tr>
     <td>65070074</td>
     <td>นางสาว ณัฐณิชา เฟื่องฟู</td>
-    <td align="center">Firewall, Layout</td>
+    <td align="center">Authorization</td>
     <td><img src="https://i.ibb.co/f8K9SB1/pic2.png" alt="Picture 2"></td>
   </tr>
 </table>
