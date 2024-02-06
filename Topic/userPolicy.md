@@ -10,11 +10,11 @@
 <div>
    <li>หากต้องการตรวจสอบสิทธิ์โฮมไดเร็กทอรีของผู้ใช้ปัจจุบันของคุณ ให้ใช้ไวยากรณ์ต่อไปนี้:</li>
      
-    ls -ld /home/username</code>
+    ls -ld /home/username
 
 <p>ผลลัพธ์ต่อไปนี้แสดงว่าไดเร็กทอรี/home/usernameมีสิทธิ์ที่สามารถอ่านได้ทั่วโลก:</p>
      
-    drwxr-xr-x  2 username username    4096 2007-10-02 20:03 username</code>
+    drwxr-xr-x  2 username username    4096 2007-10-02 20:03 username
 
 </div>
 
@@ -23,7 +23,7 @@
 <div>
    <li>คุณสามารถลบสิทธิ์การอ่านของโลกได้โดยใช้ไวยากรณ์ต่อไปนี้:</li>
         
-    lssudo chmod 0750 /home/username</code>
+    lssudo chmod 0750 /home/username
 
 <blockquote>
     <p><b>บันทึก</b></p>
@@ -31,7 +31,7 @@
 </blockquote>
 <p>แนวทางที่มีประสิทธิภาพมากขึ้นในเรื่องนี้คือการแก้ไขการอนุญาตเริ่มต้นส่วนกลางของ adduser เมื่อสร้างโฮมโฟลเดอร์ของผู้ใช้ เพียงแก้ไขไฟล์/etc/adduser.confและแก้ไขDIR_MODEตัวแปรให้เหมาะสม เพื่อให้โฮมไดเร็กทอรีใหม่ทั้งหมดได้รับการอนุญาตที่ถูกต้อง</p>
     
-    DIR_MODE=0750</code>
+    DIR_MODE=0750
     
 </div>
 
@@ -40,10 +40,10 @@
 <div>
     <li>หลังจากแก้ไขการอนุญาตไดเรกทอรีโดยใช้เทคนิคใดๆ ที่กล่าวถึงก่อนหน้านี้ ให้ตรวจสอบผลลัพธ์โดยใช้ไวยากรณ์ต่อไปนี้:</li>
         
-    ls -ld /home/username</code>
+    ls -ld /home/username
 <p>ผลลัพธ์ด้านล่างแสดงว่าการอนุญาตที่โลกอ่านได้ได้ถูกลบออกแล้ว:</p>
      
-     drwxr-x---   2 username username    4096 2007-10-02 20:03 username</code>
+     drwxr-x---   2 username username    4096 2007-10-02 20:03 username
      
 </div>
 
@@ -52,7 +52,7 @@
     <p>Ubuntu วิธีเปิดใช้งานและบังคับใช้นโยบายรหัสผ่านที่ปลอดภัยบน Ubuntu 4 ปีที่แล้วโดยคาริม บุซดาร์ รหัสผ่านที่ปลอดภัยเป็นด่านแรกในการป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต ไม่ว่าจะเป็นคอมพิวเตอร์ส่วนบุคคลหรือเซิร์ฟเวอร์ในองค์กรของคุณ อย่างไรก็ตาม พนักงานบางคนไม่ได้จริงจังกับเรื่องนี้ และใช้รหัสผ่านที่ไม่ปลอดภัยและคาดเดาได้ง่าย ซึ่งทำให้ระบบของพวกเขาถูกบุกรุก ดังนั้นจึงเป็นเรื่องสำคัญสำหรับผู้ดูแลระบบในการบังคับใช้นโยบายรหัสผ่านที่ปลอดภัยสำหรับผู้ใช้ นอกจากนี้ การเปลี่ยนรหัสผ่านหลังจากช่วงระยะเวลาหนึ่งเป็นสิ่งสำคัญ</p>
     <p>เพื่อบังคับใช้นโยบายรหัสผ่านที่ปลอดภัยใน Ubuntu เราจะใช้โมดูล pwquality ของ PAM หากต้องการติดตั้งโมดูลนี้ ให้เปิด Terminal โดยใช้ทางลัด Ctrl+Alt+T จากนั้นรันคำสั่งนี้ใน Terminal:</p>
         
-    $ sudo apt install libpam-pwquality</code>
+    $ sudo apt install libpam-pwquality
     
 <p>เมื่อได้รับแจ้งให้ใส่รหัสผ่าน ให้ป้อนรหัสผ่าน sudo</p>
     <img src="https://linuxhint.com/wp-content/uploads/2020/03/1-34.png">
@@ -61,16 +61,16 @@
     <img src="https://linuxhint.com/wp-content/uploads/2020/03/2-35.png">
     <p>จากนั้นแก้ไขเพื่อกำหนดค่านโยบายรหัสผ่าน:</p>
     
-    $ sudo nano /etc/pam.d/common-password</code>
+    $ sudo nano /etc/pam.d/common-password
  
 <p>มองหาบรรทัดต่อไปนี้:</p>
     
-    Password   requisite   pam_pwquality.so retry=3</code>
+    Password   requisite   pam_pwquality.so retry=3
 
 <p>และแทนที่ด้วยสิ่งต่อไปนี้:</p>
     
     password        requisite
-    pam_pwquality.so retry=4 minlen=9 difok=4 lcredit=-2 ucredit=-2 dcredit=-1 ocredit=-1 reject_username enforce_for_root</code><
+    pam_pwquality.so retry=4 minlen=9 difok=4 lcredit=-2 ucredit=-2 dcredit=-1 ocredit=-1 reject_username enforce_for_root
     
 <image src="https://linuxhint.com/wp-content/uploads/2020/03/3-31.png"></image>
     <br><br>
@@ -116,6 +116,6 @@
     </table>
     <h3>รีบูทระบบเพื่อใช้การเปลี่ยนแปลงในนโยบายรหัสผ่าน</h3>
            
-           $ sudo reboot</code>
+           $ sudo reboot 
 
 </div>
