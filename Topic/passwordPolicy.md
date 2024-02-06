@@ -162,20 +162,19 @@
 <li>
     ตรวจสอบว่าคำที่ยาวเกิน 3 ตัวอักษรจากช่อง GECOS ของรายการรหัสผ่านของผู้ใช้มีอยู่ในรหัสผ่านใหม่หรือไม่
 </li>
-<pre>
-    <code>
+
     root@dlp:~# vi /etc/security/pwquality.conf
     gecoscheck = 1
         # uncomment and change to enabled</code>
-</pre>
+
 <li>
     กำหนดช่องว่างแยกรายการคำที่ต้องไม่มีอยู่ในรหัสผ่าน
 </li>
-<pre>
-    <code>
+
     root@dlp:~# vi /etc/security/pwquality.conf
     badwords = denywords1 denywords2 denywords3
-        # add to the end</code>
-</pre>
+        # add to the end
 </ol>
 </div>
+
+
