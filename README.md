@@ -1,5 +1,5 @@
 <h1 align="center">User/Access Management 👤🔐</h1>
-![Bouncing-period- remix](https://github.com/jeena55/comOrg/assets/158557637/fa120e2e-d37a-4a83-bafa-5fb1bc9f52c9)
+![Bouncing-period- remix  (1)](https://github.com/jeena55/comOrg/assets/158557637/9da1a93e-2a1b-486f-a692-22864c4f900f)
 
 <h2 align="center">Group Member 🤝 </h2>
 
