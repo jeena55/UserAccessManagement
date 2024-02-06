@@ -3,7 +3,7 @@
 
   ![ความหมายของคำว่า Authentication (ออเท็นทิเคชั่น) ในแง่ของคอมพิวเตอร์](https://www.mindphp.com/images/Hosting_Directadmin/Domain_setup/authentication.png)
 
-##ประเภทของ Authentication
+## ประเภทของ Authentication
 
  ประเภทของ Authentication ในทางปฏิบัติจะแบ่งออกเป็น 2 ขั้นตอนคือ
    
