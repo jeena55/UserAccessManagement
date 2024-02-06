@@ -13,7 +13,7 @@
   <tr>
     <td>65070020</td>
     <td>นาย กิตติพัฒน์ เอี่ยมลือนาม</td>
-    <td align="center">Add/Delete/Mod Users/Groups[](/Topic/Add/Delete/Mod Users/Group)</td>
+    <td align="center">Add/Delete/Mod Users/Groups</td>
     <td><img src="https://i.ibb.co/mqmPsT2/pic4.png" alt="Picture 4"></td>
   </tr>
   <tr>
