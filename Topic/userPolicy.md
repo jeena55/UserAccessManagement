@@ -116,6 +116,6 @@
     </table>
     <h3>ตอนนี้รีบูทระบบเพื่อใช้การเปลี่ยนแปลงในนโยบายรหัสผ่าน</h3>
     <pre>
-        <code>$ sudoรีบูต</code>
+        <code>$ sudo reboot</code>
     </pre>  
 </div>
