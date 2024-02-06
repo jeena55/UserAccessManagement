@@ -9,71 +9,70 @@
 
 <div>
    <li>หากต้องการตรวจสอบสิทธิ์โฮมไดเร็กทอรีของผู้ใช้ปัจจุบันของคุณ ให้ใช้ไวยากรณ์ต่อไปนี้:</li>
-    <pre>
-        <code>ls -ld /home/username</code>
-    </pre> 
-    <p>ผลลัพธ์ต่อไปนี้แสดงว่าไดเร็กทอรี/home/usernameมีสิทธิ์ที่สามารถอ่านได้ทั่วโลก:</p>
-     <pre>
-        <code>drwxr-xr-x  2 username username    4096 2007-10-02 20:03 username</code>
-    </pre> 
+     
+    ls -ld /home/username</code>
+
+<p>ผลลัพธ์ต่อไปนี้แสดงว่าไดเร็กทอรี/home/usernameมีสิทธิ์ที่สามารถอ่านได้ทั่วโลก:</p>
+     
+    drwxr-xr-x  2 username username    4096 2007-10-02 20:03 username</code>
+
 </div>
 
 <br>
 
 <div>
    <li>คุณสามารถลบสิทธิ์การอ่านของโลกได้โดยใช้ไวยากรณ์ต่อไปนี้:</li>
-    <pre>
-        <code>lssudo chmod 0750 /home/username</code>
-    </pre> 
-    <blockquote>
-        <p><b>บันทึก</b></p>
-        <p>บางคนมีแนวโน้มที่จะใช้ตัวเลือกแบบเรียกซ้ำ (-R) โดยไม่เลือกปฏิบัติ ซึ่งจะแก้ไขโฟลเดอร์และไฟล์ย่อยทั้งหมด แต่ไม่จำเป็น และอาจให้ผลลัพธ์ที่ไม่พึงประสงค์อื่นๆ ไดเร็กทอรีพาเรนต์เพียงอย่างเดียวก็เพียงพอแล้วสำหรับการป้องกันการเข้าถึงสิ่งใดก็ตามที่อยู่ต่ำกว่าพาเรนต์โดยไม่ได้รับอนุญาต</p>
-    </blockquote>
+        
+    lssudo chmod 0750 /home/username</code>
+
+<blockquote>
+    <p><b>บันทึก</b></p>
+    <p>บางคนมีแนวโน้มที่จะใช้ตัวเลือกแบบเรียกซ้ำ (-R) โดยไม่เลือกปฏิบัติ ซึ่งจะแก้ไขโฟลเดอร์และไฟล์ย่อยทั้งหมด แต่ไม่จำเป็น และอาจให้ผลลัพธ์ที่ไม่พึงประสงค์อื่นๆ ไดเร็กทอรีพาเรนต์เพียงอย่างเดียวก็เพียงพอแล้วสำหรับการป้องกันการเข้าถึงสิ่งใดก็ตามที่อยู่ต่ำกว่าพาเรนต์โดยไม่ได้รับอนุญาต</p>
+</blockquote>
 <p>แนวทางที่มีประสิทธิภาพมากขึ้นในเรื่องนี้คือการแก้ไขการอนุญาตเริ่มต้นส่วนกลางของ adduser เมื่อสร้างโฮมโฟลเดอร์ของผู้ใช้ เพียงแก้ไขไฟล์/etc/adduser.confและแก้ไขDIR_MODEตัวแปรให้เหมาะสม เพื่อให้โฮมไดเร็กทอรีใหม่ทั้งหมดได้รับการอนุญาตที่ถูกต้อง</p>
-    <pre>
-        <code>DIR_MODE=0750</code>
-    </pre> 
+    
+    DIR_MODE=0750</code>
+    
 </div>
 
 <br>
 
 <div>
     <li>หลังจากแก้ไขการอนุญาตไดเรกทอรีโดยใช้เทคนิคใดๆ ที่กล่าวถึงก่อนหน้านี้ ให้ตรวจสอบผลลัพธ์โดยใช้ไวยากรณ์ต่อไปนี้:</li>
-    <pre>
-        <code>ls -ld /home/username</code>
-    </pre> 
-    <p>ผลลัพธ์ด้านล่างแสดงว่าการอนุญาตที่โลกอ่านได้ได้ถูกลบออกแล้ว:</p>
-     <pre>
-        <code>drwxr-x---   2 username username    4096 2007-10-02 20:03 username</code>
-    </pre> 
+        
+    ls -ld /home/username</code>
+<p>ผลลัพธ์ด้านล่างแสดงว่าการอนุญาตที่โลกอ่านได้ได้ถูกลบออกแล้ว:</p>
+     
+     drwxr-x---   2 username username    4096 2007-10-02 20:03 username</code>
+     
 </div>
 
 <h1>วิธีเปิดใช้งานและบังคับใช้นโยบายรหัสผ่านที่ปลอดภัย</h1>
 <div>
     <p>Ubuntu วิธีเปิดใช้งานและบังคับใช้นโยบายรหัสผ่านที่ปลอดภัยบน Ubuntu 4 ปีที่แล้วโดยคาริม บุซดาร์ รหัสผ่านที่ปลอดภัยเป็นด่านแรกในการป้องกันการเข้าถึงโดยไม่ได้รับอนุญาต ไม่ว่าจะเป็นคอมพิวเตอร์ส่วนบุคคลหรือเซิร์ฟเวอร์ในองค์กรของคุณ อย่างไรก็ตาม พนักงานบางคนไม่ได้จริงจังกับเรื่องนี้ และใช้รหัสผ่านที่ไม่ปลอดภัยและคาดเดาได้ง่าย ซึ่งทำให้ระบบของพวกเขาถูกบุกรุก ดังนั้นจึงเป็นเรื่องสำคัญสำหรับผู้ดูแลระบบในการบังคับใช้นโยบายรหัสผ่านที่ปลอดภัยสำหรับผู้ใช้ นอกจากนี้ การเปลี่ยนรหัสผ่านหลังจากช่วงระยะเวลาหนึ่งเป็นสิ่งสำคัญ</p>
     <p>เพื่อบังคับใช้นโยบายรหัสผ่านที่ปลอดภัยใน Ubuntu เราจะใช้โมดูล pwquality ของ PAM หากต้องการติดตั้งโมดูลนี้ ให้เปิด Terminal โดยใช้ทางลัด Ctrl+Alt+T จากนั้นรันคำสั่งนี้ใน Terminal:</p>
-    <pre>
-        <code>$ sudo apt install libpam-pwquality</code>
-    </pre> 
-    <p>เมื่อได้รับแจ้งให้ใส่รหัสผ่าน ให้ป้อนรหัสผ่าน sudo</p>
+        
+    $ sudo apt install libpam-pwquality</code>
+    
+<p>เมื่อได้รับแจ้งให้ใส่รหัสผ่าน ให้ป้อนรหัสผ่าน sudo</p>
     <img src="https://linuxhint.com/wp-content/uploads/2020/03/1-34.png">
     <br><br>
     <p>ขั้นแรกให้คัดลอกไฟล์ “/etc/pam.d/common-password” ก่อนกำหนดค่าการเปลี่ยนแปลงใดๆ</p>
     <img src="https://linuxhint.com/wp-content/uploads/2020/03/2-35.png">
     <p>จากนั้นแก้ไขเพื่อกำหนดค่านโยบายรหัสผ่าน:</p>
-    <pre>
-        <code>$ sudo nano /etc/pam.d/common-password</code>
-    </pre> 
-    <p>มองหาบรรทัดต่อไปนี้:</p>
-    <pre>
-        <code>Password   requisite   pam_pwquality.so retry=3</code>
-    </pre>
-    <p>และแทนที่ด้วยสิ่งต่อไปนี้:</p>
-    <pre>
-        <code>password        requisite
-        pam_pwquality.so retry=4 minlen=9 difok=4 lcredit=-2 ucredit=-2 dcredit=-1 ocredit=-1 reject_username enforce_for_root</code><
-    </pre>
-    <image src="https://linuxhint.com/wp-content/uploads/2020/03/3-31.png"></image>
+    
+    $ sudo nano /etc/pam.d/common-password</code>
+ 
+<p>มองหาบรรทัดต่อไปนี้:</p>
+    
+    Password   requisite   pam_pwquality.so retry=3</code>
+
+<p>และแทนที่ด้วยสิ่งต่อไปนี้:</p>
+    
+    password        requisite
+    pam_pwquality.so retry=4 minlen=9 difok=4 lcredit=-2 ucredit=-2 dcredit=-1 ocredit=-1 reject_username enforce_for_root</code><
+    
+<image src="https://linuxhint.com/wp-content/uploads/2020/03/3-31.png"></image>
     <br><br>
     <h3>มาดูกันว่าพารามิเตอร์ในคำสั่งด้านบนหมายถึงอะไร:</h3>
     <table>
