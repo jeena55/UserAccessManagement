@@ -78,5 +78,5 @@
 - ### <a href="https://www.redhat.com/sysadmin/linux-groups">RedHat</a>
 - ### <a href="https://linuxhint.com/access-control-lists-ubuntu/?fbclid=IwAR0oyfxUuj3YCXr5YnuDnfw3hZl4WSufv4JtHjdrIQX1Rw1FTjznNHmN9ig#sidr-main/">LinuxHint</a>
 - ### <a href="https://www.mindphp.com/คู่มือ/73-คืออะไร/5358-authentication.html">MindPHP</a>
-- ### <a href="https://ubuntu.com/">ubuntu</a>
+- ### <a href="https://ubuntu.com/">Ubuntu</a>
 
