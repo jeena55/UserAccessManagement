@@ -14,7 +14,7 @@
     <td>65070020</td>
     <td>นาย กิตติพัฒน์ เอี่ยมลือนาม</td>
     <td>Powered by <a href="https://your-project-url">your-project-name</a></td>
-    <td><img src="https://i.ibb.co/wSjhVh3/pic1.png" alt="Picture 1"></td>
+    <td><img src="https://i.ibb.co/mqmPsT2/pic4.png" alt="Picture 4"></td>
   </tr>
   <tr>
     <td>65070022</td>
