@@ -13,7 +13,7 @@
   <tr>
     <td>65070020</td>
     <td>นาย กิตติพัฒน์ เอี่ยมลือนาม</td>
-    <td align="center">Add/Delete/Mod Users/Groups</td>
+    <td align="center">Add/Delete/Mod Users/Groups[](/Topic/Add/Delete/Mod Users/Group)</td>
     <td><img src="https://i.ibb.co/mqmPsT2/pic4.png" alt="Picture 4"></td>
   </tr>
   <tr>
@@ -31,7 +31,7 @@
   <tr>
     <td>65070032</td>
     <td>นาย จารุวิทย์ จงเชื่อกลาง</td>
-    <td align="center">Access Controlt</td>
+    <td align="center">Access Control</td>
     <td><img src="https://i.ibb.co/jkBdkmP/pic6.jpg" alt="Picture 1"></td>
   </tr>
   <tr>
