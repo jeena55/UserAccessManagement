@@ -1,79 +1,15 @@
-# README-README: A Style Guide for README files
+##Security - Firewall
+#Introduction
 
-## Contents
+ใน Linux kernel มีส่วนประกอบที่เรียกว่า Netfilter ซึ่งใช้สำหรับการจัดการหรือกำหนดชะลอของการส่งข้อมูลเครือข่ายเข้าหรือผ่านเซิร์ฟเวอร์ของคุณ โซลูชันไฟร์วอล Linux ทุกอันสมัยใช้ระบบนี้สำหรับการกรองแพ็กเก็ต
 
-The `README.md` file and supporting documents should describe the following, in this order. If the file starts getting long, break it into pieces
+ระบบการกรองแพ็กเก็ตของ kernel จะมีความเป็นประโยชน์น้อยสำหรับผู้ดูแลระบบหากไม่มีอินเตอร์เฟซของผู้ใช้ในพื้นที่การทำงาน นี่คือจุดที่ iptables มาช่วย: เมื่อแพ็กเก็ตมาถึงที่เซิร์ฟเวอร์ของคุณ มันจะถูกส่งไปยังส่วนประกอบ Netfilter เพื่อตอบรับ การจัดการ หรือปฏิเสธขึ้นอยู่กับกฎที่ได้รับจากพื้นที่ทำงานผู้ใช้ผ่าน iptables ดังนั้น iptables เพียงพอสำหรับการจัดการไฟร์วอลของคุณหากคุณคุ้นเคยกับมัน แม้ว่าจะมีอินเตอร์เฟซหลายรูปแบบที่มีให้ใช้งานเพื่อการงานที่ง่ายขึ้น
 
-* **Project Titles** as a level-1 heading
-  - with descriptive tagline: I should be informed and intrigued. Examples:
-    - "Sinatra is a DSL for quickly creating web applications in Ruby with minimal
-effort"
-    - "Rails is a web-application framework that includes everything needed to create
-database-backed web applications according to the Model-View-Controller (MVC) pattern."
-    - "Resque (pronounced like "rescue") is a Redis-backed library for creating
-background jobs, placing those jobs on multiple queues, and processing
-them later."
+ufw - ไฟร์วอลแบบไม่ซับซ้อน
+เครื่องมือการกำหนดค่าไฟร์วอลที่เริ่มต้นสำหรับ Ubuntu คือ ufw พัฒนาขึ้นเพื่อสะดวกในการกำหนดค่าไฟร์วอล iptables ufw ให้วิธีการใช้งานที่ใช้ง่ายในการสร้างไฟร์วอลเบสเริ่มต้น IPv4 หรือ IPv6
 
-* **Overview**
-  - what it does
-  - why you might want to use it, and why you might not
+โดยปกติ ufw จะถูกปิดใช้งานตั้งแต่เริ่มต้น ตาม ufw man page:
 
-* **Example Usage**: a basic example. Nothing fancy -- put rich examples in the detailed usage section
+"ufw ไม่ได้มีวัตถุประสงค์ที่จะให้ฟังก์ชันไฟร์วอลที่สมบูรณ์ผ่านอินเตอร์เฟซคำสั่งของมัน แต่มีวัตถุประสงค์ในการให้วิธีง่ายๆในการเพิ่มหรือลบกฎที่เรียบง่าย ๆ ปัจจุบันใช้สำหรับไฟร์วอลเบสเริ่มต้น"
 
-* **Getting Started**
-  - installation & prerequisites
-  - how to run examples and tests
-    - include a `Procfile` to start any necessary servers or daemon processes
-  - location of:
-    - code
-    - issue tracker
-    - wiki
-    - blog posts, screencasts, etc
-    - compiled documentation (add the project to [rdoc.info](http://rdoc.info))
-    - travis-ci results
-    - mailing list
-
-* **Design Goals**
-  - lightweight or full-featured?
-  - performance, flexibility, expressiveness?
-
-* **Detailed Usage**
-  - models and interface
-  - examples
-  - configuration
-  - middleware or plugins
-  - how it works
-
-* **Comparable Tools**
-
-* **Developer info**
-  - Important Components
-  - layout of internal code tree
-  - Limitations and known issues
-  - performance and benchmarking
-
-* **Colophon**
-  - Credits -- everyone who has contributed code, libraries from which we've borrowed code.
-  - Copyright and License -- state the license type (typically "Apache 2.0" or "All Rights Reserved and Confidential") and refer to the `LICENSE.md` file. Don't paste the license contents in here.
-  - How to contribute
-  - References
-
-## Formatting
-
-* Call the file `README.md`.
-* Write in markdown format.
-  - You should use triple backtick blocks for code, and supply a language prefix:
-
-        def hello(str)
-          puts "hello #{str}!"
-        end
-
-* Do not wrap lines. In emacs, enable the `longlines-mode` to make your document word wrap intelligently.
-
-
-
-
-## Supporting Documentation
-
-Besides a `README.md`, your repo should contain a `CHANGELOG.md` summarizing major code changes, a `LICENSE.md` describing the code's license (typically Apache 2.0 for our open-source projects, All Rights Reserved for internal projects), and a `notes/` directory that is a git submodule of the project's wiki. See the [style guide for repo organization](https://github.com/roachhd/style_guide/blob/master/style-guide-for-repo-organization.md) for more details.
-
+ด้านล่างนี้เป็นตัวอย่างของวิธีการใช้งาน ufw:
