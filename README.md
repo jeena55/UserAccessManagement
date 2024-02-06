@@ -1,8 +1,6 @@
 <h1 align="center">User/Access Management 👤🔐</h1>
-https://jumpshare.com/s/Fz8PIygFYWG1JifXaY2u
 <h2 align="center">Group Member 🤝 </h2>
-
-![Uploading 269884182_3202598800065695_1991805008826527788_n.png…]()
+![269884182_3202598800065695_1991805008826527788_n](https://github.com/jeena55/comOrg/assets/158557637/a94f144d-4949-4b3d-bb0e-d5d95f824109)
 
 <table align="center">
   <tr>
