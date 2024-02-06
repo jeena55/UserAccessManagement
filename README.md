@@ -26,7 +26,7 @@
     <td>65070031</td>
     <td>นาย จารุพงศ์ ทองมาก</td>
     <td align="center">Firewall, Layout</td>
-    <td><img src="https://i.ibb.co/mqmPsT2/pic4.png" alt="Picture 4"></td>
+    <td><img src="https://i.ibb.co/tDrFMYR/269884182-3202598800065695-1991805008826527788-n-1.png"  alt="Picture 4"></td>
   </tr>
   <tr>
     <td>65070032</td>
