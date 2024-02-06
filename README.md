@@ -43,7 +43,7 @@
   <tr>
     <td>65070048</td>
     <td>นาย ชาญเมธา สงวนทรัพย์</td>
-    <td>Firewall</td>
+    <td>Firewall, Layout</td>
     <td><img src="https://i.ibb.co/zVP6n6G/pic5.png" alt="Picture 5"></td>
   </tr>
   <tr>
