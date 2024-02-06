@@ -1,5 +1,5 @@
 <h1 align="center">User/Access Management 👤🔐</h1>
-[](https://jumpshare.com/s/Fz8PIygFYWG1JifXaY2u)
+https://jumpshare.com/s/Fz8PIygFYWG1JifXaY2u
 <h2 align="center">Group Member 🤝 </h2>
 
 
