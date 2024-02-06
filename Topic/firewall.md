@@ -15,49 +15,49 @@
 
 **- เปิดใช้งาน ufw:**
 
-    `sudo ufw enable`
+    sudo ufw enable
     
 
  **- เปิดพอร์ต (ตัวอย่างเปิดพอร์ต SSH):**
 
-    `sudo ufw allow 22`
+    sudo ufw allow 22
 
  **- การเพิ่มกฎโดยระบุเลขลำดับ:**
 
-	`sudo ufw insert 1 allow 80` 
+	sudo ufw insert 1 allow 80
 
  **- ปิดพอร์ตที่เปิดไว้:**
 
-	`sudo ufw deny 22` 
+	sudo ufw deny 22
 
  **- การลบกฎโดยระบุกฎ:**
 
-	`sudo ufw delete deny 22` 
+	sudo ufw delete deny 22
 
  **- อนุญาตการเข้าถึงจากโฮสต์หรือเครือข่ายที่ระบุ:**
 
-	`sudo ufw allow proto tcp from 192.168.0.2 to any port 22` 
+	sudo ufw allow proto tcp from 192.168.0.2 to any port 22
 
 > แทนที่ 192.168.0.2 ด้วย 192.168.0.0/24 เพื่ออนุญาตการเข้าถึง SSH จากทั้งเครือข่ายทั้งหมดใน subnet.
 
 **- เพิ่มคำสั่ง --dry-run เพื่อดูกฎที่จะถูกสร้างโดย ufw แต่ไม่นำไปใช้:**
 
-	`sudo ufw --dry-run allow http` 
+	sudo ufw --dry-run allow http
  **- ปิดใช้งาน ufw:**
 
-	`sudo ufw disable` 
+	sudo ufw disable
 
  **- ตรวจสอบสถานะของไฟวอลล์:**
 
-	`sudo ufw status` 
+	sudo ufw status
 
  **- ตรวจสอบสถานะของไฟวอลล์แบบ verbose:**
 
-	`sudo ufw status verbose` 
+	sudo ufw status verbose 
 
  **- ดูกฎในรูปแบบเลขลำดับ:**
 
-	`sudo ufw status numbered`
+	sudo ufw status numbered
 
 > **Note**
 > 
