@@ -48,11 +48,17 @@
 
     getfacl example.txt 
 
+
+<p align="center"><img src="https://media.discordapp.net/attachments/1029797759777247295/1204463390811230330/image.png?ex=65d4d2f2&is=65c25df2&hm=a67ae813581139d1dbbde8354b69357cf7b3fe1ef9629b1a16b9b2c74a1589b2&=&format=webp&quality=lossless&width=1076&height=452"></p>
+
 <br>**setfacl:** ตั้งค่ารายการควบคุมการเข้าถึง (ACLs) สำหรับไฟล์และไดเรกทอรี <br>
 **ตัวอย่างการใช้งาน:** ให้สิทธิ์อ่านและเขียนถึงผู้ใช้ที่ระบุบนไฟล์ชื่อ "example.txt":
  
     sudo setfacl -m u:ชื่อผู้ใช้:rw- example.txt 
 
+
+
+<p align="center"><img src="https://i.ibb.co/qFxQs3w/image-1.png"></p>
 
 <br>**visudo:** ใช้แก้ไขไฟล์ /etc/sudoers ที่ใช้กำหนดสิทธิ์การใช้งาน sudo <br>
 **ตัวอย่างการใช้งาน:** โดยใช้คำสั่ง visudo (เพื่อป้องกันข้อผิดพลาดของไวยากรณ์) :
