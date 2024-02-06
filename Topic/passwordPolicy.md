@@ -1,5 +1,4 @@
-<div>
-    <h1>📝 Password Policy 📝</h1>
+<h1>📝 Password Policy 📝</h1>
     <blockquote>
         <p><b>How do I enforce a password complexity policy?</b></p>
         <li>at least one upper case (อย่างน้อยหนึ่งตัวพิมพ์ใหญ่)</li>
@@ -17,7 +16,6 @@
 <pre>
 <code>$ sudo passwd testuser</code>
 </pre>
-</div>
 
 <div>
 <h2>Set Password Rules</h2>
